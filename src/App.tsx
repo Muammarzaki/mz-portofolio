@@ -333,7 +333,7 @@ function App() {
 
                                         {/* Enhanced Photo Content */}
                                         <div className="text-center relative z-10">
-                                            <img src="/public/profile-removebg-preview.png" alt="Muammar Zaki"
+                                            <img src="/profile-removebg-preview.png" alt="Muammar Zaki"
                                                  className="w-full h-full "/>
                                         </div>
                                     </div>
