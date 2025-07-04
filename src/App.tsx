@@ -7,12 +7,12 @@ import {
     Braces,
     Briefcase,
     Calendar,
-    Camera,
     CheckCircle,
     Circle,
     Clock,
     Code2,
     Coffee,
+    Cog as Gear,
     Command,
     Compass,
     Diamond,
@@ -20,7 +20,6 @@ import {
     GitCommit,
     GraduationCap,
     Heart,
-    Heart as Gear,
     Hexagon,
     Home,
     Instagram,
@@ -201,7 +200,7 @@ function App() {
                             </div>
                             <div className="hidden sm:block">
                                 <h1 className="text-xl font-bold flex items-center gap-2">
-                                    Your Name
+                                    Muammar Zaki
                                     <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse"/>
                                 </h1>
                                 <p className={`text-xs ${themeClasses.secondary} flex items-center gap-1`}>
@@ -334,29 +333,8 @@ function App() {
 
                                         {/* Enhanced Photo Content */}
                                         <div className="text-center relative z-10">
-                                            <div
-                                                className={`relative w-20 h-20 mx-auto mb-4 rounded-full ${isDark ? 'bg-gradient-to-r from-blue-500 to-purple-500' : 'bg-gradient-to-r from-blue-600 to-indigo-600'} flex items-center justify-center shadow-lg`}>
-                                                <Camera className="w-10 h-10 text-white"/>
-                                                {/* Decorative elements */}
-                                                <div
-                                                    className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
-                                                <div
-                                                    className="absolute -bottom-1 -left-1 w-2 h-2 bg-green-400 rounded-full animate-pulse delay-300"></div>
-                                            </div>
-                                            <h3 className="text-base font-bold mb-2 flex items-center justify-center gap-2">
-                                                Professional Photo
-                                                <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse"/>
-                                            </h3>
-                                            <p className={`text-xs ${themeClasses.secondary} mb-3 px-4`}>
-                                                Your authentic professional headshot
-                                            </p>
-                                            <div
-                                                className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full ${isDark ? 'bg-gray-800/50' : 'bg-blue-50/50'} backdrop-blur-sm border`}>
-                                                <div
-                                                    className={`w-1.5 h-1.5 rounded-full ${isDark ? 'bg-green-400' : 'bg-green-500'} animate-pulse`}></div>
-                                                <span className="text-xs font-medium">Ready to Connect</span>
-                                                <Wifi className="w-3 h-3 animate-pulse"/>
-                                            </div>
+                                            <img src="/public/profile-removebg-preview.png" alt="Muammar Zaki"
+                                                 className="w-full h-full "/>
                                         </div>
                                     </div>
                                 </div>
@@ -405,7 +383,7 @@ function App() {
                   </span>
                                     <span
                                         className={`block text-4xl md:text-5xl lg:text-6xl font-bold mb-3 tracking-tight bg-gradient-to-r ${isDark ? 'from-white via-blue-200 to-purple-200' : 'from-blue-600 via-indigo-600 to-purple-600'} bg-clip-text text-transparent`}>
-                    Your Name
+                    Muammar Zaki
                   </span>
                                 </h1>
 
@@ -441,12 +419,16 @@ function App() {
                                             <Sparkles className="w-4 h-4 animate-pulse"/>
                                         </h3>
                                         <p className={`text-sm leading-relaxed ${themeClasses.secondary}`}>
-                                            It all started with curiosity about how apps work behind the scenes. That
-                                            led me down the
-                                            fascinating path of backend systems, database optimization, and clean
-                                            architecture.
-                                            Today, I'm driven by creating systems that don't just work, but work
-                                            beautifully at scale.
+                                            It all began during the COVID-19 pandemic, when I found myself diving deep
+                                            into the world of backend development. What started as a curiosity quickly
+                                            grew into a passion for building scalable, secure, and efficient systems.
+                                            I’ve since spent countless hours exploring tools, frameworks, and languages
+                                            like Java and Kotlin—driven by a desire to understand not just how things
+                                            work, but how to make them work better.
+                                            Today, I’m focused on mastering backend technologies and learning how they
+                                            power real-world applications. I thrive on continuous learning, practical
+                                            challenges, and the excitement of contributing to systems that make a real
+                                            impact.
                                         </p>
                                     </div>
                                 </div>
@@ -908,7 +890,7 @@ function App() {
 
                     <div className="flex justify-center gap-6 mb-12">
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/muammar-zaki-b6387a2a0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`relative p-4 rounded-full ${themeClasses.card} border hover:scale-110 transition-all duration-300 group overflow-hidden`}
@@ -921,7 +903,7 @@ function App() {
                                 className="absolute -top-1 -right-1 w-3 h-3 bg-blue-500 rounded-full animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </a>
                         <a
-                            href="https://discord.com"
+                            href="https://discordapp.com/users/marsal_88474"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`relative p-4 rounded-full ${themeClasses.card} border hover:scale-110 transition-all duration-300 group overflow-hidden`}
@@ -935,7 +917,7 @@ function App() {
                                 className="absolute -top-1 -right-1 w-3 h-3 bg-indigo-500 rounded-full animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </a>
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/marsal_mc/?igsh=aG9vZTJtYWIwM2g5#"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`relative p-4 rounded-full ${themeClasses.card} border hover:scale-110 transition-all duration-300 group overflow-hidden`}

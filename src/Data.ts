@@ -11,7 +11,7 @@ const skillCategories: SkillCategory = {
                 icon: '☕',
                 category: 'Backend',
                 description: 'Enterprise applications & Spring ecosystem',
-                projects: 15,
+                projects: 20,
                 yearsExp: '3+ years',
                 isCore: true
             },
@@ -20,7 +20,7 @@ const skillCategories: SkillCategory = {
                 icon: '🎯',
                 category: 'Mobile',
                 description: 'Android development & multiplatform',
-                projects: 8,
+                projects: 10,
                 yearsExp: '2+ years',
                 isCore: true
             },
@@ -29,7 +29,7 @@ const skillCategories: SkillCategory = {
                 icon: '⚡',
                 category: 'Full-Stack',
                 description: 'Node.js, React & modern frameworks',
-                projects: 12,
+                projects: 15,
                 yearsExp: '2+ years'
             },
             {
@@ -37,7 +37,7 @@ const skillCategories: SkillCategory = {
                 icon: '🔷',
                 category: 'Full-Stack',
                 description: 'Type-safe development & large codebases',
-                projects: 10,
+                projects: 8,
                 yearsExp: '1.5+ years'
             },
             {
@@ -70,8 +70,24 @@ const skillCategories: SkillCategory = {
                 icon: '🗃️',
                 category: 'Database',
                 description: 'Complex queries, optimization & design',
-                projects: 20,
+                projects: 40,
                 yearsExp: '3+ years'
+            },
+            {
+                name: 'PHP',
+                icon: '🐘',
+                category: 'Backend',
+                description: 'APIs, data processing & automation',
+                projects: 10,
+                yearsExp: '2+ years'
+            },
+            {
+                name: 'bash',
+                icon: '>_',
+                category: 'System',
+                description: 'Shell scripting & automation',
+                projects: 0,
+                yearsExp: '2+ year'
             }
         ] as Skill[]
     },
@@ -90,43 +106,27 @@ const skillCategories: SkillCategory = {
             },
             {
                 name: 'NestJS',
-                icon: '🦅',
+                icon: '🐈',
                 category: 'Backend',
                 description: 'TypeScript APIs, GraphQL, WebSockets',
-                projects: 6,
+                projects: 4,
                 yearsExp: '1+ year',
                 isTrending: true
             },
             {
                 name: 'Django',
-                icon: '🎸',
+                icon: '🧩',
                 category: 'Backend',
                 description: 'REST APIs, ORM, Admin panels',
-                projects: 5,
+                projects: 1,
                 yearsExp: '1+ year'
-            },
-            {
-                name: 'Express.js',
-                icon: '🚂',
-                category: 'Backend',
-                description: 'RESTful APIs, middleware, routing',
-                projects: 8,
-                yearsExp: '1.5+ years'
-            },
-            {
-                name: 'React',
-                icon: '⚛️',
-                category: 'Frontend',
-                description: 'Component architecture, hooks, state management',
-                projects: 10,
-                yearsExp: '1.5+ years'
             },
             {
                 name: 'Android SDK',
                 icon: '🤖',
                 category: 'Mobile',
                 description: 'Native Android, Jetpack Compose',
-                projects: 8,
+                projects: 10,
                 yearsExp: '2+ years',
                 isCore: true
             },
@@ -135,18 +135,26 @@ const skillCategories: SkillCategory = {
                 icon: '⚡',
                 category: 'Backend',
                 description: 'Go web framework, high performance',
-                projects: 3,
+                projects: 2,
                 yearsExp: '8 months',
                 isTrending: true
             },
             {
-                name: 'FastAPI',
-                icon: '🏃',
+                name: 'Express.js',
+                icon: '🚂',
                 category: 'Backend',
-                description: 'Python async APIs, automatic docs',
-                projects: 4,
-                yearsExp: '1+ year'
-            }
+                description: 'RESTFull APIs, middleware, routing',
+                projects: 3,
+                yearsExp: '1.5+ years'
+            },
+            {
+                name: 'Hapi.js',
+                icon: '☀️',
+                category: 'Backend',
+                description: 'RESTFull APIs, middleware, routing',
+                projects: 1,
+                yearsExp: '-1 years'
+            },
         ]
     },
     tools: {
@@ -170,10 +178,10 @@ const skillCategories: SkillCategory = {
                 yearsExp: '2+ years'
             },
             {
-                name: 'VS Code',
+                name: 'Any Jetbrains IDE',
                 icon: '📝',
-                category: 'Editor',
-                description: 'Lightweight development, extensions',
+                category: 'Editor & IDE',
+                description: 'Webstorm, PyCharm, GoLand, etc.',
                 projects: 15,
                 yearsExp: '2+ years'
             },
@@ -220,11 +228,11 @@ const skillCategories: SkillCategory = {
                 yearsExp: '1+ year'
             },
             {
-                name: 'AWS',
+                name: 'Google Cloud Platform',
                 icon: '☁️',
                 category: 'Cloud',
-                description: 'EC2, RDS, S3, Lambda, API Gateway',
-                projects: 6,
+                description: 'Cloud infrastructure, deployment, monitoring',
+                projects: 2,
                 yearsExp: '1+ year'
             },
             {
@@ -238,9 +246,9 @@ const skillCategories: SkillCategory = {
             {
                 name: 'Jira',
                 icon: '📋',
-                category: 'Project Mgmt',
+                category: 'Project Management',
                 description: 'Agile project management, issue tracking',
-                projects: 10,
+                projects: 1,
                 yearsExp: '1.5+ years'
             },
             {
