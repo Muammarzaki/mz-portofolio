@@ -10,7 +10,6 @@ const isOpen = ref(false)
 
         <div class="hidden md:flex lg:space-x-12 space-x-6">
           <a href="#" class="hover:text-gray-300 font-medium">Home</a>
-          <a href="#" class="hover:text-gray-300 font-medium">About</a>
           <a href="#" class="hover:text-gray-300 font-medium">Services</a>
           <a href="#" class="hover:text-gray-300 font-medium">Contact</a>
         </div>
@@ -33,7 +32,6 @@ const isOpen = ref(false)
 
     <div v-if="isOpen" class="md:hidden px-4 pb-4 space-y-2 bg-gray-800">
       <a href="#" class="block hover:text-gray-300 font-medium">Home</a>
-      <a href="#" class="block hover:text-gray-300 font-medium">About</a>
       <a href="#" class="block hover:text-gray-300 font-medium">Services</a>
       <a href="#" class="block hover:text-gray-300 font-medium">Contact</a>
     </div>
