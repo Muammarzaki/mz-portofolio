@@ -9,5 +9,12 @@ export default defineNuxtConfig({
         plugins: [
             tailwindcss()
         ]
-    }
+    },
+    modules: [
+        ['@nuxtjs/google-fonts', {
+            families: {
+                'Montserrat': [400, 500, 600, 700]
+            }
+        }]
+    ]
 })
