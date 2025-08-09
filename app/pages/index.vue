@@ -1,16 +1,17 @@
 <script setup lang="ts">
-
+import BigLogoLink from "~/components/BigLogoLink.vue";
+import socialMedia from '@/assets/json/social_media.json'
 </script>
 
 <template>
-  <TopHeaderBlack>
+  <BlackContainer>
     <div class="ml-8 lg:max-w-4xl space-y-6">
       <h1 class="text-white lg:text-8xl text-4xl font-black lg:pt-10">
         MUAMMAR ZAKI
       </h1>
     </div>
-  </TopHeaderBlack>
-  <div class="flex">
+  </BlackContainer>
+  <div class="flex mb-4">
     <div class="mx-8">
       <p class="text-2xl font-mono pt-10">
         Hi! I'm Zaki, a Software Engineer who loves creating digital experiences. I specialize in full-stack development
@@ -21,10 +22,13 @@
         on
         innovative projects.
       </p>
+      <div class="flex flex-wrap space-x-4 lg:mt-12 mt-4">
+        <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
+      </div>
     </div>
     <img src="/robot-arm-right-bg-clean.png"
          alt="robot arm that solving puzzle block"
-         class="lg:w-5/10">
+         class="lg:w-5/10 lg:block hidden">
   </div>
 </template>
 
