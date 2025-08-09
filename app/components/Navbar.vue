@@ -11,7 +11,6 @@ const isOpen = ref(false)
         <div class="hidden md:flex lg:space-x-12 space-x-6">
           <NuxtLink to="/" class="hover:text-gray-300 font-medium">Home</NuxtLink>
           <NuxtLink to="/experience" class="hover:text-gray-300 font-medium">Experiences</NuxtLink>
-          <NuxtLink to="/contact" class="hover:text-gray-300 font-medium">Contact</NuxtLink>
         </div>
 
         <div class="md:hidden">
@@ -33,7 +32,6 @@ const isOpen = ref(false)
     <div v-if="isOpen" class="md:hidden px-4 pb-4 space-y-2 bg-gray-800">
       <a href="#" class="block hover:text-gray-300 font-medium">Home</a>
       <a href="#" class="block hover:text-gray-300 font-medium">Experiences</a>
-      <a href="#" class="block hover:text-gray-300 font-medium">Contact</a>
     </div>
   </nav>
 </template>
