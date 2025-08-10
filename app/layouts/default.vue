@@ -1,6 +1,7 @@
 <script setup>
 useHead({
   title: 'MZ-Portfolio',
+  link: [{rel: 'manifest', href: '/site.webmanifest'}],
 })
 </script>
 <template>
