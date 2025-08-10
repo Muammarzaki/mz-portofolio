@@ -17,15 +17,17 @@ useHead({
   <div class="flex mb-4">
     <div class="mx-8">
       <p class="text-2xl font-mono pt-10">
-        Hi! I'm Zaki, a Software Engineer who loves creating digital experiences. I specialize in full-stack development
-        with a focus on building scalable and user-friendly web applications. I enjoy tackling challenging problems and
-        continuously learning new technologies to stay at the forefront of web development. When I'm not coding, you can
-        find me exploring new tech trends, contributing to open-source projects, or sharing knowledge with the developer
-        community. I'm passionate about creating solutions that make a positive impact and always eager to collaborate
-        on
-        innovative projects.
+        I am a software engineer with a strong focus on backend development and logic-driven systems, dedicated to
+        designing scalable, secure, and efficient solutions that power modern applications. With experience across a
+        wide range of backend technologies, I adapt quickly to different tools, frameworks, and programming paradigms to
+        deliver reliable results.
+        <br>
+        I am committed to continuous growth, staying aligned with industry best practices, and exploring emerging trends
+        to ensure my work meets the highest standards. I thrive in collaborative environments where ideas are shared
+        freely and challenges are solved creatively, driving impactful and future-ready projects. I approach every
+        project with a problem-solving mindset, focusing on creating solutions that are both practical and innovative.
       </p>
-      <div class="flex flex-wrap space-x-4 lg:mt-12 mt-4">
+      <div class="flex flex-wrap space-x-4 mt-4">
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
