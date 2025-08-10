@@ -15,8 +15,8 @@ useHead({
     </div>
   </BlackContainer>
   <div class="flex mb-4">
-    <div class="mx-8">
-      <p class="text-2xl font-mono pt-10">
+    <div class="lg:mx-8 mx-4">
+      <p class="text-2xl font-mono pt-4">
         I am a software engineer with a strong focus on backend development and logic-driven systems, dedicated to
         designing scalable, secure, and efficient solutions that power modern applications. With experience across a
         wide range of backend technologies, I adapt quickly to different tools, frameworks, and programming paradigms to
@@ -27,7 +27,7 @@ useHead({
         freely and challenges are solved creatively, driving impactful and future-ready projects. I approach every
         project with a problem-solving mindset, focusing on creating solutions that are both practical and innovative.
       </p>
-      <div class="flex flex-wrap space-x-4 mt-4">
+      <div class="flex lg:relative lg:-bottom-7 flex-wrap space-x-4 mt-4 offset">
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
