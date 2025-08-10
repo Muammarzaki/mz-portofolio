@@ -15,6 +15,13 @@ export default defineNuxtConfig({
             families: {
                 'Montserrat': [400, 500, 600, 700]
             }
-        }]
-    ]
+        }],
+        '@nuxtjs/sitemap',
+        '@nuxtjs/robots'
+    ],
+    app: {
+        head: {
+            link: [{rel: 'manifest', href: '/site.webmanifest'}]
+        }
+    },
 })

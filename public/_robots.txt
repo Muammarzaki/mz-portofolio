@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /image/*
+Disallow: /logos/*
+Disallow: /texture/*

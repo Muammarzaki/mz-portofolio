@@ -1,8 +1,3 @@
-<script setup>
-useHead({
-  link: [{rel: 'manifest', href: '/site.webmanifest'}],
-})
-</script>
 <template>
   <div class="flex flex-col min-h-[calc(100vh-20px)]">
     <Navbar/>
