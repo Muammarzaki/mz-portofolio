@@ -26,7 +26,7 @@ import socialMedia from '@/assets/json/social_media.json'
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
-    <img src="/robot-arm-right-bg-clean.png"
+    <img src="/image/robot-arm-right-bg-clean.png"
          alt="robot arm that solving puzzle block"
          class="lg:w-5/10 lg:block hidden">
   </div>
