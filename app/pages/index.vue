@@ -5,8 +5,8 @@ import socialMedia from '@/assets/json/social_media.json'
 
 <template>
   <BlackContainer>
-    <div class="ml-8 lg:max-w-4xl space-y-6">
-      <h1 class="text-white lg:text-8xl text-4xl font-black lg:pt-10">
+    <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
+      <h1 class="text-white lg:text-8xl text-6xl font-black lg:pt-10">
         MUAMMAR ZAKI
       </h1>
     </div>

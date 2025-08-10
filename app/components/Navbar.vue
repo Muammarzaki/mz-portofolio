@@ -30,8 +30,9 @@ const isOpen = ref(false)
     </div>
 
     <div v-if="isOpen" class="md:hidden px-4 pb-4 space-y-2 bg-gray-800">
-      <a href="#" class="block hover:text-gray-300 font-medium">Home</a>
-      <a href="#" class="block hover:text-gray-300 font-medium">Experiences</a>
+      <NuxtLink to="/" class="block hover:text-gray-300 font-medium" @click="isOpen = false">Home</NuxtLink>
+      <NuxtLink to="/experience" class="block hover:text-gray-300 font-medium" @click="isOpen = false">Experiences
+      </NuxtLink>
     </div>
   </nav>
 </template>
@@ -42,7 +43,7 @@ const isOpen = ref(false)
   background-color: #030303;
 }
 
- a {
+a {
   @apply hover:underline;
   @apply underline-offset-5;
   @apply decoration-1;

@@ -4,8 +4,8 @@ import experience from '@/assets/json/experience.json'
 
 <template>
   <BlackContainer>
-    <div class="lg:ml-8 lg:max-w-4xl space-y-6">
-      <h1 class="text-white text-8xl font-black">
+    <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
+      <h1 class="text-white lg:text-8xl text-6xl font-black">
         MY <br> EXPERIENCE
       </h1>
     </div>
