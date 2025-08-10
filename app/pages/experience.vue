@@ -11,7 +11,7 @@ import experience from '@/assets/json/experience.json'
     </div>
   </BlackContainer>
   <div class="lg:ml-8 mx-5 my-5">
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-4 gap-y-6">
       <ExperienceCard
           v-for="exp in experience"
           :key="exp.experience_title"
