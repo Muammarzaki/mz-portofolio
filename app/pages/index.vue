@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import BigLogoLink from "~/components/BigLogoLink.vue";
 import socialMedia from '@/assets/json/social_media.json'
+
+useHead({
+  title: 'MZ | Home',
+})
 </script>
 
 <template>

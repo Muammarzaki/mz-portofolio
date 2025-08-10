@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import experience from '@/assets/json/experience.json'
+useHead({
+  title: 'MZ | Experience',
+})
 </script>
 
 <template>
