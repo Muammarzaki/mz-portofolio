@@ -14,9 +14,9 @@ useHead({
       </h1>
     </div>
   </BlackContainer>
-  <div class="flex mb-4">
-    <div class="lg:mx-8 mx-4">
-      <p class="text-2xl font-mono pt-4">
+  <div class="flex lg:flex-row flex-col min-h-auto mb-4">
+    <div class="flex-78/100 lg:mx-8 mx-4">
+      <p class="text-2xl font-mono pt-4 text-start">
         I am a software engineer with a strong focus on backend development and logic-driven systems, dedicated to
         designing scalable, secure, and efficient solutions that power modern applications. With experience across a
         wide range of backend technologies, I adapt quickly to different tools, frameworks, and programming paradigms to
@@ -31,9 +31,11 @@ useHead({
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
-    <img src="/image/robot-arm-right-bg-clean.png"
-         alt="robot arm that solving puzzle block"
-         class="lg:w-5/10 lg:block hidden">
+    <div class="flex-4/10 h-auto sm:flex items-center justify-end relative -top-40 lg:top-0 hidden">
+      <img src="/image/robot-arm-right-bg-clean.png"
+           alt="robot arm that solving puzzle block"
+           class="aspect-square object-contain">
+    </div>
   </div>
 </template>
 
