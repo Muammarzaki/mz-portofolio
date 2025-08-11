@@ -27,7 +27,7 @@ useHead({
         freely and challenges are solved creatively, driving impactful and future-ready projects. I approach every
         project with a problem-solving mindset, focusing on creating solutions that are both practical and innovative.
       </p>
-      <div class="flex lg:relative lg:-bottom-4 flex-wrap space-x-4">
+      <div class="flex lg:relative mt-4 lg:mt-0 -bottom-4 flex-wrap space-x-4">
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
