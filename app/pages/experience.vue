@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import experience from '@/assets/json/experience.json'
+
 useHead({
   title: 'MZ | Experience',
 })
@@ -21,6 +22,8 @@ useHead({
           :title="exp.experience_title"
           :description="exp.short_description"
           :period="exp.duration"
+          :github="exp.github"
+          :website="exp.website"
           class="w-full md:w-[calc(50%-0.5rem)] rounded-2xl p-5"
       />
     </div>

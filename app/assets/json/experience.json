@@ -2,21 +2,27 @@
   {
     "experience_title": "Android Developer for MiniHackathon",
     "duration": "JUl 2025",
-    "short_description": "Achieved 3rd place in the Mini Hackathon under the Smart City Solution sub-theme at the 2025 KI-PTKIN Scientific Competition. Contributed as an Android Developer in a project aimed at creating innovative smart city solutions to enhance community services, in line with the theme 'Tech for Ummah'. The event was organized by the Faculty of Science and Technology, UIN Raden Fatah Palembang, in collaboration with FORDEK PTKIN."
+    "short_description": "Achieved 3rd place in the Mini Hackathon under the Smart City Solution sub-theme at the 2025 KI-PTKIN Scientific Competition. Contributed as an Android Developer in a project aimed at creating innovative smart city solutions to enhance community services, in line with the theme 'Tech for Ummah'. The event was organized by the Faculty of Science and Technology, UIN Raden Fatah Palembang, in collaboration with FORDEK PTKIN.",
+    "github": "https://github.com/Muammarzaki/eatzy.git",
+    "website": "https://warta.ar-raniry.ac.id/2025/07/15-mahasiswa-fst-uin-ar-raniry-sabet-juara-kompetisi-fordek-2025/"
   },
   {
     "experience_title": "Project Leader & Backend Engineer – Faculty of Science and Technology, UIN Ar-Raniry",
     "duration": "feb - Apr 2025",
-    "short_description": "During my internship at the Faculty of Science and Technology, UIN Ar-Raniry, I led and developed a web-based profile and news system. As the Project Leader, I was responsible for coordinating a small development team, planning milestones, and ensuring timely delivery. In my role as Backend Engineer, I designed and implemented RestFull APIs, handled database architecture, and integrated admin functionalities to manage news content and profile information."
+    "short_description": "During my internship at the Faculty of Science and Technology, UIN Ar-Raniry, I led and developed a web-based profile and news system. As the Project Leader, I was responsible for coordinating a small development team, planning milestones, and ensuring timely delivery. In my role as Backend Engineer, I designed and implemented RestFull APIs, handled database architecture, and integrated admin functionalities to manage news content and profile information.",
+    "website": "https://fst-software-dev.github.io/"
   },
   {
     "experience_title": "Android Developer at DermatoAI | Bangkit 2024 Capstone",
     "duration": "sep 2024 - jan 2025",
-    "short_description": "I am currently serving as an Android Developer for DermatoAI, the capstone project of our Bangkit program group. DermatoAI is designed to detect skin conditions using image recognition and provide users with personalized guidance for skin health. My responsibilities include developing the app’s front-end to deliver a seamless user experience and integrating it with machine learning models and backend systems. This role allows me to leverage my Android development expertise while contributing to an impactful innovation in healthcare technology."
+    "short_description": "I am currently serving as an Android Developer for DermatoAI, the capstone project of our Bangkit program group. DermatoAI is designed to detect skin conditions using image recognition and provide users with personalized guidance for skin health. My responsibilities include developing the app’s front-end to deliver a seamless user experience and integrating it with machine learning models and backend systems. This role allows me to leverage my Android development expertise while contributing to an impactful innovation in healthcare technology.",
+    "github": "https://github.com/DermatoAI/Dermato.AI-MD",
+    "website": "https://dermatoai.github.io/Dermato.AI-MD/index.html"
   },
   {
     "experience_title": "Team Leader – App Design (Figma Simulation Project)",
     "duration": "Apr - Jul 2024",
-    "short_description": "Led a simulated company team focused on mobile app design using Figma, creating <span class=\"font-bold\">Kost-Ku</span> a platform designed to help students and individuals find boarding houses near college areas. Specifically targeted for Banda Aceh and Aceh Besar, Kost-Ku offers a variety of options tailored to different budgets, making it easier for students to find the right accommodation that fits their needs."
+    "short_description": "Led a simulated company team focused on mobile app design using Figma, creating <span class=\"font-bold\">Kost-Ku</span> a platform designed to help students and individuals find boarding houses near college areas. Specifically targeted for Banda Aceh and Aceh Besar, Kost-Ku offers a variety of options tailored to different budgets, making it easier for students to find the right accommodation that fits their needs.",
+    "website": "https://docs.google.com/presentation/d/1QnOYOW_o95oCqH3tpmO59C_lkz7uCVLieT38tQZOhhM/edit"
   }
 ]
