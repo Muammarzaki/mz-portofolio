@@ -14,7 +14,7 @@ onMounted(() => {
 
 <template>
   <footer class="w-full">
-    <div class="flex flex-wrap justify-between items-center px-4">
+    <div class="flex flex-wrap justify-between items-center px-4 pb-1">
 
       <div id="footer-start" class="text-xs font-medium">
         Aceh, {{ currentTime.toLocaleTimeString('id-ID', {hour: 'numeric', minute: 'numeric', hour12: true}) }}
