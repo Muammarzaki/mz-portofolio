@@ -17,7 +17,9 @@ onMounted(() => {
     <div class="flex flex-wrap justify-between items-center px-4 pb-1">
 
       <div id="footer-start" class="text-xs font-medium">
-        Aceh, {{ currentTime.toLocaleTimeString('id-ID', {hour: 'numeric', minute: 'numeric', hour12: true}) }}
+        Aceh,
+        <NuxtTime :datetime="currentTime.toISOString()" locale="en-US" hour="2-digit" minute="2-digit"
+                  hour12/>
       </div>
 
       <div id="footer-center" class="lg:absolute lg:left-1/2 lg:-translate-x-1/2 text-xs font-medium">
@@ -26,7 +28,3 @@ onMounted(() => {
     </div>
   </footer>
 </template>
-
-<style scoped>
-
-</style>
