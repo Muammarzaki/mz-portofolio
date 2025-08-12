@@ -1,6 +1,7 @@
 <script setup>
 useHead({
-  bodyAttrs:{
+  title: "MZ | Certification",
+  bodyAttrs: {
     class: "bg-[url('/texture/small-shape-shading.png')] bg-repeat bg-[length:50rem_50rem]"
   }
 })
