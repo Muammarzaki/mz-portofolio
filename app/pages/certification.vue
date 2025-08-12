@@ -30,7 +30,7 @@ useHead({
           </div>
           <div class="flex items-center gap-1">
             <Icon name="mdi:shield-check-outline" size="1.7rem" style="color:#e41111"/>
-            <span class="text-white">International Validation</span>
+            <span class="text-white">Professional Competency</span>
           </div>
         </div>
         <div class="text-white pl-6 mt-3">
