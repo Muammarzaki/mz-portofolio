@@ -1,9 +1,9 @@
 <script setup lang="ts">
-let currentTime = new Date()
+let currentTime = ref(new Date())
 
 onMounted(() => {
   const timer = setInterval(() => {
-    currentTime = new Date()
+    currentTime.value = new Date()
   }, 1000)
 
   onUnmounted(() => {
