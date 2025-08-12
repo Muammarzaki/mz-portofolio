@@ -14,15 +14,15 @@ useHead({
       </h1>
     </div>
   </BlackContainer>
-  <div class="flex flex-row w-full p-10 gap-5">
+  <div class="flex flex-row w-full p-3 lg:p-10 gap-5">
     <div class="p-2 flex flex-row rounded-2xl bg-gray-900  lg:w-full">
       <h3 class="transform rotate-180 text-5xl text-white font-bold" style="writing-mode: vertical-lr">DEV
         CERTIFICATION</h3>
       <a href="https://dev.id/certificate/verify/OXWKR3PVDG" class="my-auto">
         <img src="@/assets/images/dca-cert.png" alt="my certification"
-             class="w-300 ml-3 border-gray-600 border-6 rounded-lg cursor-pointer">
+             class="w-300 lg:ml-3 ml-1 border-gray-600 border-6 rounded-lg cursor-pointer">
       </a>
-      <div class="w-full mx-4">
+      <div class="lg:block hidden w-full mx-4">
         <div class="flex-row flex justify-around p-5">
           <div class="flex items-center gap-1">
             <Icon name="mdi:web" size="1.7rem" style="color:#e41111"/>
@@ -35,7 +35,7 @@ useHead({
         </div>
         <div class="text-white pl-6 mt-3">
           <h3 class="text-lg font-semibold font-montserrat">This certification assesses in-depth knowledge and skills related to:</h3>
-          <ul class="pl-8 mt-2 list-disc space-y-2 text-md font-normal font-montserrat">
+          <ul class="pl-8 pb-2 mt-2 list-disc lg:space-y-1.5 text-md font-normal font-montserrat">
             <li>User Interface: Creating and displaying UI that meets requirements using ConstraintLayout, DatePicker,
               Spinner, Custom Views, and RecyclerView.
             </li>
