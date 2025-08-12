@@ -17,7 +17,8 @@ export default defineNuxtConfig({
             }
         }],
         '@nuxtjs/sitemap',
-        '@nuxtjs/robots'
+        '@nuxtjs/robots',
+        '@nuxt/icon'
     ],
     app: {
         head: {

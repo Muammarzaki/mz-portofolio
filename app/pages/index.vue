@@ -32,7 +32,7 @@ useHead({
       </div>
     </div>
     <div class="flex-4/10 h-auto sm:flex items-center justify-end relative -top-40 lg:top-0 hidden">
-      <img src="/image/robot-arm-right-bg-clean.png"
+      <img src="@/assets/images/robot-arm-right-bg-clean.png"
            alt="robot arm that solving puzzle block"
            class="aspect-square object-contain">
     </div>
