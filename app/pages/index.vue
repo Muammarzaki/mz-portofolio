@@ -61,14 +61,14 @@ useHead({
 <template>
   <BlackContainer>
     <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
-      <h1 class="text-white lg:text-8xl text-6xl font-black lg:pt-10">
+      <h1 class="text-white lg:text-8xl text-5xl sm:text-6xl font-black lg:pt-10">
         MUAMMAR ZAKI
       </h1>
     </div>
   </BlackContainer>
   <div class="flex lg:flex-row flex-col min-h-auto mb-4">
     <div class="flex-78/100 lg:mx-8 mx-4">
-      <p class="text-2xl font-mono pt-4 text-start">
+      <p class="hidden sm:block text-2xl font-mono pt-4 text-start">
         I am a software engineer with a strong focus on backend development and logic-driven systems, dedicated to
         designing scalable, secure, and efficient solutions that power modern applications. With experience across a
         wide range of backend technologies, I adapt quickly to different tools, frameworks, and programming paradigms to
@@ -78,6 +78,10 @@ useHead({
         to ensure my work meets the highest standards. I thrive in collaborative environments where ideas are shared
         freely and challenges are solved creatively, driving impactful and future-ready projects. I approach every
         project with a problem-solving mindset, focusing on creating solutions that are both practical and innovative.
+      </p>
+      <p class="sm:hidden text-base leading-7 pt-4 text-start">
+        Backend-focused software engineer and Android developer. I build scalable APIs, reliable systems, and clean
+        mobile experiences with Spring Boot, NestJS, Kotlin, and Jetpack Compose.
       </p>
       <div class="flex lg:relative mt-4 lg:mt-0 -bottom-4 flex-wrap space-x-4">
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>

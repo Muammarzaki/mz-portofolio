@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     },
     modules: [
         ['@nuxtjs/google-fonts', {
+            display: 'swap',
+            preload: true,
+            prefetch: false,
             families: {
                 'Montserrat': [400, 500, 600, 700]
             }
@@ -30,7 +33,11 @@ export default defineNuxtConfig({
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'},
                 {name: 'theme-color', content: '#030303'}
             ],
-            link: [{rel: 'manifest', href: '/site.webmanifest'}]
+            link: [
+                {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+                {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''},
+                {rel: 'manifest', href: '/site.webmanifest'}
+            ]
         }
     },
 })
