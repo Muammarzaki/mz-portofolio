@@ -1,6 +1,26 @@
 <script setup>
+const siteUrl = 'https://mz-portofolio.vercel.app'
+const pageUrl = `${siteUrl}/certification`
+const ogImage = `${siteUrl}/android-chrome-512x512.png`
+
+useSeoMeta({
+  title: 'Credentials & Certifications | Muammar Zaki',
+  description: 'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
+  ogTitle: 'Credentials & Certifications | Muammar Zaki',
+  ogDescription: 'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
+  ogImage,
+  ogType: 'website',
+  ogUrl: pageUrl,
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Credentials & Certifications | Muammar Zaki',
+  twitterDescription: 'Sertifikasi profesional Muammar Zaki di web dan Android development.',
+  twitterImage: ogImage
+})
+
 useHead({
-  title: "MZ | Certification",
+  link: [
+    { rel: 'canonical', href: pageUrl }
+  ],
   bodyAttrs: {
     class: "bg-[url('@/assets/textures/small-shape-shading.png')] bg-repeat bg-[length:50rem_50rem]"
   }
@@ -50,6 +70,23 @@ useHead({
             <li>Testing: Creating and performing UI Testing to ensure application functionality works as expected.</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-row w-full p-3 lg:px-10 lg:pb-10 gap-5">
+    <div class="p-2 flex flex-col rounded-2xl bg-gray-900 lg:w-full">
+      <h3 class="text-3xl lg:text-5xl text-white font-bold text-center py-2">BNSP CERTIFICATION</h3>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-2 lg:p-4">
+        <img
+          src="@/assets/images/bnsp.1.jpg"
+          alt="BNSP Junior Web Developer certificate page 1"
+          class="w-full border-gray-600 border-4 rounded-lg"
+        >
+        <img
+          src="@/assets/images/bnsp.2.jpg"
+          alt="BNSP Junior Web Developer certificate page 2"
+          class="w-full border-gray-600 border-4 rounded-lg"
+        >
       </div>
     </div>
   </div>

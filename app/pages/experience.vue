@@ -1,8 +1,28 @@
 <script setup lang="ts">
 import experience from '@/assets/json/experience.json'
 
+const siteUrl = 'https://mz-portofolio.vercel.app'
+const pageUrl = `${siteUrl}/experience`
+const ogImage = `${siteUrl}/android-chrome-512x512.png`
+
+useSeoMeta({
+  title: 'Experience | Muammar Zaki - Backend & Android Developer',
+  description: 'Pengalaman Muammar Zaki: Project Leader & Backend Engineer di UIN Ar-Raniry, Android Developer di Dermato.AI (Bangkit Academy), juara 3 KI-PTKIN 2025.',
+  ogTitle: 'Experience | Muammar Zaki - Backend & Android Developer',
+  ogDescription: 'Pengalaman Muammar Zaki: Project Leader & Backend Engineer di UIN Ar-Raniry, Android Developer di Dermato.AI (Bangkit Academy), juara 3 KI-PTKIN 2025.',
+  ogImage,
+  ogType: 'website',
+  ogUrl: pageUrl,
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Experience | Muammar Zaki - Backend & Android Developer',
+  twitterDescription: 'Pengalaman Muammar Zaki di backend engineering dan Android development.',
+  twitterImage: ogImage
+})
+
 useHead({
-  title: 'MZ | Experience',
+  link: [
+    { rel: 'canonical', href: pageUrl }
+  ]
 })
 </script>
 
