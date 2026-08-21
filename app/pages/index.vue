@@ -6,7 +6,7 @@ const pageUrl = `${siteUrl}/`
 const ogImage = `${siteUrl}/android-chrome-512x512.png`
 
 useSeoMeta({
-  title: 'Muammar Zaki | Backend Software Engineer & Android Developer',
+  title: 'Muammar Zaki | Backend & Android Engineer',
   description: 'Portofolio Muammar Zaki, Backend Software Engineer & Android Developer lulusan Cum Laude UIN Ar-Raniry. Spring Boot, NestJS, Kotlin, Jetpack Compose.',
   keywords: 'Muammar Zaki, backend developer, android developer, software engineer Aceh, Kotlin developer, Spring Boot developer, portfolio developer Indonesia',
   ogTitle: 'Muammar Zaki | Backend Software Engineer & Android Developer',
