@@ -35,8 +35,8 @@ useHead({
     </div>
   </BlackContainer>
   <div class="flex flex-row w-full p-3 lg:p-10 gap-5">
-    <div class="p-2 flex flex-row rounded-2xl bg-gray-900  lg:w-full">
-      <h3 class="transform rotate-180 text-5xl text-white font-bold" style="writing-mode: vertical-lr">DEV
+    <div class="p-2 flex flex-row rounded-lg bg-gray-900  lg:w-full">
+      <h3 class="transform rotate-180 text-2xl md:text-5xl text-white font-bold" style="writing-mode: vertical-lr">DEV
         CERTIFICATION</h3>
       <a href="https://dev.id/certificate/verify/OXWKR3PVDG" class="my-auto">
         <img src="@/assets/images/dca-cert.png" alt="my certification"

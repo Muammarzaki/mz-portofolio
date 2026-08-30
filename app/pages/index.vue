@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import socialMedia from '@/assets/json/social_media.json'
+import education from '@/assets/json/education.json'
 
 const siteUrl = 'https://mz-portofolio.vercel.app'
 const pageUrl = `${siteUrl}/`
@@ -8,21 +9,16 @@ const ogImage = `${siteUrl}/android-chrome-512x512.png`
 useSeoMeta({
   title: 'Muammar Zaki | Backend & Android Engineer',
   description: 'Portofolio Muammar Zaki, Backend Software Engineer & Android Developer lulusan Cum Laude UIN Ar-Raniry. Spring Boot, NestJS, Kotlin, Jetpack Compose.',
-  keywords: 'Muammar Zaki, backend developer, android developer, software engineer Aceh, Kotlin developer, Spring Boot developer, portfolio developer Indonesia',
   ogTitle: 'Muammar Zaki | Backend Software Engineer & Android Developer',
   ogDescription: 'Backend-focused software engineer & Android developer. RESTful API, Spring Boot, NestJS, Kotlin, Jetpack Compose.',
   ogImage,
   ogType: 'website',
   ogUrl: pageUrl,
-  twitterCard: 'summary_large_image',
-  twitterTitle: 'Muammar Zaki | Backend Software Engineer & Android Developer',
-  twitterDescription: 'Portofolio backend engineer & Android developer — Spring Boot, NestJS, Kotlin.',
-  twitterImage: ogImage
 })
 
 useHead({
   link: [
-    { rel: 'canonical', href: pageUrl }
+    {rel: 'canonical', href: pageUrl}
   ],
   script: [
     {
@@ -79,7 +75,7 @@ useHead({
         freely and challenges are solved creatively, driving impactful and future-ready projects. I approach every
         project with a problem-solving mindset, focusing on creating solutions that are both practical and innovative.
       </p>
-      <p class="sm:hidden text-base leading-7 pt-4 text-start">
+      <p class="sm:hidden text-base font-mono pt-4 leading-snug text-start">
         Backend-focused software engineer and Android developer. I build scalable APIs, reliable systems, and clean
         mobile experiences with Spring Boot, NestJS, Kotlin, and Jetpack Compose.
       </p>
@@ -87,10 +83,16 @@ useHead({
         <BigLogoLink v-for="soc in socialMedia" :image-path="soc.logo" :link="soc.url" :name="soc.name"/>
       </div>
     </div>
-    <div class="flex-4/10 h-auto sm:flex items-center justify-end relative -top-40 lg:top-0 hidden">
+    <div class=" flex-4/10 h-auto sm:flex items-center justify-end relative -top-40 lg:top-0 hidden">
       <img src="@/assets/images/robot-arm-right-bg-clean.png"
            alt="robot arm that solving puzzle block"
            class="aspect-square object-contain">
+    </div>
+  </div>
+  <div class="lg:mx-8 mx-4 mt-10">
+    <h2 class="text-2xl sm:text-3xl font-black font-mono mb-4">Education</h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <EducationCard v-for="edu in education" :key="edu.degree" v-bind="edu"/>
     </div>
   </div>
 </template>

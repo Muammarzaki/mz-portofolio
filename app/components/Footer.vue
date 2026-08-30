@@ -1,19 +1,22 @@
 <script setup lang="ts">
-let currentTime = ref(new Date())
+const currentTime = ref(new Date())
+let timer: ReturnType<typeof setInterval> | undefined
 
 onMounted(() => {
-  const timer = setInterval(() => {
+  timer = setInterval(() => {
     currentTime.value = new Date()
   }, 1000)
+})
 
-  onUnmounted(() => {
+onUnmounted(() => {
+  if (timer) {
     clearInterval(timer)
-  })
+  }
 })
 </script>
 
 <template>
-  <footer class="w-full">
+  <footer class="w-full mt-auto">
     <div class="flex flex-wrap justify-between items-center px-4 pb-1">
 
       <div id="footer-start" class="text-xs font-medium">
