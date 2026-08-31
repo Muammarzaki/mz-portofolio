@@ -24,8 +24,33 @@ export default defineNuxtConfig({
         }],
         '@nuxtjs/sitemap',
         '@nuxtjs/robots',
-        '@nuxt/icon'
+        '@nuxt/icon',
+        '@nuxt/image'
     ],
+    image: {
+        quality: 70,
+        format: ['avif', 'webp'],
+        densities: [1, 2],
+        screens: {
+            xs: 320,
+            sm: 640,
+            md: 768,
+            lg: 1024,
+            xl: 1280,
+            xxl: 1536
+        },
+        presets: {
+            logo: {
+                modifiers: {format: 'webp', quality: 80, width: 144, height: 144, fit: 'inside'}
+            },
+            certificate: {
+                modifiers: {format: 'webp', quality: 68, width: 1400, fit: 'inside'}
+            },
+            texture: {
+                modifiers: {format: 'webp', quality: 55, width: 800, fit: 'inside'}
+            }
+        }
+    },
     app: {
         head: {
             htmlAttrs: {lang: 'en'},

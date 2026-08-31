@@ -84,9 +84,18 @@ useHead({
       </div>
     </div>
     <div class=" flex-4/10 h-auto sm:flex items-center justify-end relative -top-40 lg:top-0 hidden">
-      <img src="@/assets/images/robot-arm-right-bg-clean.png"
-           alt="robot arm that solving puzzle block"
-           class="aspect-square object-contain">
+      <NuxtImg
+          src="/images/robot-arm-right-bg-clean.png"
+          alt="robot arm that solving puzzle block"
+          class="aspect-square object-contain"
+          width="640"
+          height="640"
+          sizes="sm:320px md:420px lg:560px xl:640px"
+          loading="lazy"
+          decoding="async"
+          format="webp"
+          quality="75"
+      />
     </div>
   </div>
   <div class="lg:mx-8 mx-4 mt-10">

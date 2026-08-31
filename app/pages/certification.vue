@@ -2,6 +2,8 @@
 const siteUrl = 'https://mz-portofolio.vercel.app'
 const pageUrl = `${siteUrl}/certification`
 const ogImage = `${siteUrl}/android-chrome-512x512.png`
+const img = useImage()
+const bodyTexture = img('/textures/small-shape-shading.png', {preset: 'texture'})
 
 useSeoMeta({
   title: 'Credentials & Certifications | Muammar Zaki',
@@ -22,7 +24,8 @@ useHead({
     { rel: 'canonical', href: pageUrl }
   ],
   bodyAttrs: {
-    class: "bg-[url('@/assets/textures/small-shape-shading.png')] bg-repeat bg-[length:50rem_50rem]"
+    class: 'bg-repeat bg-[length:50rem_50rem]',
+    style: `background-image: url('${bodyTexture}')`
   }
 })
 </script>
@@ -39,8 +42,18 @@ useHead({
       <h3 class="transform rotate-180 text-2xl md:text-5xl text-white font-bold" style="writing-mode: vertical-lr">DEV
         CERTIFICATION</h3>
       <a href="https://dev.id/certificate/verify/OXWKR3PVDG" class="my-auto">
-        <img src="@/assets/images/dca-cert.png" alt="my certification"
-             class="w-300 lg:ml-3 ml-1 border-gray-600 border-6 rounded-lg cursor-pointer">
+        <NuxtImg
+            src="/images/dca-cert.png"
+            alt="my certification"
+            class="w-300 lg:ml-3 ml-1 border-gray-600 border-6 rounded-lg cursor-pointer"
+            width="1200"
+            height="849"
+            sizes="xs:90vw sm:80vw md:60vw lg:600px"
+            format="webp"
+            quality="70"
+            loading="lazy"
+            decoding="async"
+        />
       </a>
       <div class="lg:block hidden w-full mx-4">
         <div class="flex-row flex justify-around p-5">
@@ -77,16 +90,24 @@ useHead({
     <div class="p-2 flex flex-col rounded-2xl bg-gray-900 lg:w-full">
       <h3 class="text-3xl lg:text-5xl text-white font-bold text-center py-2">BNSP CERTIFICATION</h3>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-2 lg:p-4">
-        <img
-          src="@/assets/images/bnsp.1.jpg"
+        <NuxtImg
+          src="/images/bnsp.1.jpg"
           alt="BNSP Junior Web Developer certificate page 1"
           class="w-full border-gray-600 border-4 rounded-lg"
-        >
-        <img
-          src="@/assets/images/bnsp.2.jpg"
+          preset="certificate"
+          sizes="xs:95vw sm:90vw lg:700px"
+          loading="lazy"
+          decoding="async"
+        />
+        <NuxtImg
+          src="/images/bnsp.2.jpg"
           alt="BNSP Junior Web Developer certificate page 2"
           class="w-full border-gray-600 border-4 rounded-lg"
-        >
+          preset="certificate"
+          sizes="xs:95vw sm:90vw lg:700px"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
     </div>
   </div>

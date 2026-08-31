@@ -9,13 +9,27 @@
     {
       "source": "/logos/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, noimageindex" }
+        { "key": "X-Robots-Tag", "value": "noindex, noimageindex" },
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
       "source": "/texture/(.*)",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex, noimageindex" }
+      ]
+    },
+    {
+      "source": "/textures/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, noimageindex" },
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     }
   ]
