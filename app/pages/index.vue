@@ -5,14 +5,13 @@ import education from '@/assets/json/education.json'
 useSeoMeta({
   title: 'Muammar Zaki | Backend & Android Engineer',
   description:
-      'Portofolio Muammar Zaki, Backend Software Engineer & Android Developer lulusan Cum Laude UIN Ar-Raniry. Spring Boot, NestJS, Kotlin, Jetpack Compose.',
-
-  ogTitle: 'Muammar Zaki | Backend Software Engineer & Android Developer',
+      'I build software that turns complex ideas into reliable, scalable, and thoughtfully engineered products. Explore the systems, applications, and problems I\'ve built along the way.',
+  ogTitle: 'Muammar Zaki | Backend & Android Engineer',
   ogDescription:
-      'Backend-focused software engineer & Android developer. RESTful API, Spring Boot, NestJS, Kotlin, Jetpack Compose.',
-
-  ogImage: '/android-chrome-512x512.png',
-  ogType: 'website',
+      'Software engineer building reliable backend systems and modern Android applications.',
+  ogImage: '/og-image.png',
+  ogImageAlt: 'Muammar Zaki — Backend & Android Engineer',
+  ogType: 'website'
 })
 
 useSchemaOrg([

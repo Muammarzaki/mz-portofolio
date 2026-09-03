@@ -45,17 +45,60 @@ export default defineNuxtConfig({
             }
         }
     },
+    site: {
+        name: 'Muammar Zaki',
+        description:
+            'Software engineer building reliable backend systems and modern Android applications, with a focus on clean architecture and scalable solutions.',
+        defaultLocale: 'en'
+    },
     app: {
         head: {
-            htmlAttrs: {lang: 'en'},
+            htmlAttrs: {
+                lang: 'en'
+            },
             meta: [
-                {name: 'theme-color', content: '#030303'}
+                {
+                    name: 'theme-color',
+                    content: '#030303'
+                }
             ],
             link: [
-                {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
-                {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''},
-                {rel: 'manifest', href: '/site.webmanifest'}
+                {
+                    rel: 'icon',
+                    type: 'image/x-icon',
+                    href: '/favicon.ico'
+                },
+                {
+                    rel: 'icon',
+                    type: 'image/png',
+                    sizes: '16x16',
+                    href: '/favicon-16x16.png'
+                },
+                {
+                    rel: 'icon',
+                    type: 'image/png',
+                    sizes: '32x32',
+                    href: '/favicon-32x32.png'
+                },
+                {
+                    rel: 'apple-touch-icon',
+                    sizes: '180x180',
+                    href: '/apple-touch-icon.png'
+                },
+                {
+                    rel: 'manifest',
+                    href: '/site.webmanifest'
+                },
+                {
+                    rel: 'preconnect',
+                    href: 'https://fonts.googleapis.com'
+                },
+                {
+                    rel: 'preconnect',
+                    href: 'https://fonts.gstatic.com',
+                    crossorigin: ''
+                }
             ]
         }
-    },
+    }
 })

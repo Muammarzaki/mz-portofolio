@@ -2,14 +2,14 @@
 import experience from '@/assets/json/experience.json'
 
 useSeoMeta({
-  title: 'Experience | Muammar Zaki - Backend & Android Developer',
+  title: 'Experience | Muammar Zaki',
   description:
-      'Pengalaman Muammar Zaki: Project Leader & Backend Engineer di UIN Ar-Raniry, Android Developer di Dermato.AI (Bangkit Academy), juara 3 KI-PTKIN 2025.',
-
-  ogTitle: 'Experience | Muammar Zaki - Backend & Android Developer',
+      'Explore Muammar Zaki’s experience building backend systems and Android applications, from leading software projects at UIN Ar-Raniry to developing Dermato.AI with Bangkit Academy.',
+  ogTitle: 'Experience | Muammar Zaki',
   ogDescription:
-      'Pengalaman Muammar Zaki: Project Leader & Backend Engineer di UIN Ar-Raniry, Android Developer di Dermato.AI (Bangkit Academy), juara 3 KI-PTKIN 2025.',
-  ogImage: '/android-chrome-512x512.png',
+      'Explore the projects, roles, and engineering experiences that shaped Muammar Zaki as a software engineer.',
+  ogImage: '/og-image.png',
+  ogImageAlt: 'Muammar Zaki — Software Engineering Experience',
   ogType: 'website',
 })
 </script>

@@ -8,19 +8,13 @@ const bodyTexture = img('/textures/small-shape-shading.png', {
 useSeoMeta({
   title: 'Credentials & Certifications | Muammar Zaki',
   description:
-      'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
-
+      'Explore the certifications, academic achievements, and professional credentials behind Muammar Zaki’s journey as a software engineer.',
   ogTitle: 'Credentials & Certifications | Muammar Zaki',
   ogDescription:
-      'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
-  ogImage: '/android-chrome-512x512.png',
+      'Explore the certifications and achievements that support Muammar Zaki’s work as a software engineer.',
+  ogImage: '/og-image.png',
+  ogImageAlt: 'Muammar Zaki — Credentials & Certifications',
   ogType: 'website',
-
-  twitterCard: 'summary_large_image',
-  twitterTitle: 'Credentials & Certifications | Muammar Zaki',
-  twitterDescription:
-      'Sertifikasi profesional Muammar Zaki di web dan Android development.',
-  twitterImage: '/android-chrome-512x512.png',
 })
 
 useHead({
