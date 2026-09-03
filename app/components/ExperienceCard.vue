@@ -8,13 +8,15 @@ const props = defineProps({
 })
 
 const img = useImage()
-const backgroundStyle = {
-  backgroundImage: `url('${img('/textures/diagonal-stroke.png', {preset: 'texture'})}')`
-}
+const backgroundUrl = img('/textures/diagonal-stroke.png', {
+  width: 240,
+  quality: 60,
+  format: 'webp',
+})
 </script>
 
 <template>
-  <div class="p-2 bg-cover bg-center relative" :style="backgroundStyle">
+  <div class="p-2 bg-cover bg-repeat relative" :style="{ backgroundImage: `url('${backgroundUrl}')` }">
     <h4 class="font-bold text-2xl mb-2">{{ props.title }}</h4>
     <p class="font-sm font-light font-montserrat pb-6" v-html="props.description"></p>
     <h5 class="float-right font-semibold uppercase text-white bg-gray-900 p-1 px-2 rounded-md absolute -bottom-3.5 right-5 "
