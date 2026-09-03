@@ -16,8 +16,10 @@
     "@nuxtjs/robots": "^5.4.0",
     "@nuxtjs/seo": "^5.3.14",
     "@nuxtjs/sitemap": "^7.4.3",
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.1.11",
     "nuxt": "^4.0.1",
+    "satori": "^0.33.4",
     "tailwindcss": "^4.1.11",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
