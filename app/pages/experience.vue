@@ -17,7 +17,7 @@ useSeoMeta({
 <template>
   <BlackContainer>
     <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
-      <h1 class="text-white lg:text-8xl text-6xl font-black">
+      <h1 class="text-white lg:text-8xl text-5xl font-black pb-1">
         MY <br> EXPERIENCE
       </h1>
     </div>

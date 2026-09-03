@@ -54,7 +54,7 @@ useSchemaOrg([
 <template>
   <BlackContainer>
     <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
-      <h1 class="text-white lg:text-8xl text-5xl sm:text-6xl font-black lg:pt-10">
+      <h1 class="text-white lg:text-8xl text-5xl sm:text-6xl font-black lg:pt-10 pb-1">
         MUAMMAR ZAKI
       </h1>
     </div>

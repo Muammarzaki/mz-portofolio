@@ -27,15 +27,16 @@ useHead({
 <template>
   <BlackContainer>
     <div class="lg:ml-8 ml-2 lg:max-w-4xl space-y-6">
-      <h1 class="text-white lg:text-8xl text-5xl font-black pb-1">
+      <h1 class="text-white lg:text-8xl text-[2.9rem] leading-none font-black pb-1">
         MY <br> CERTIFICATION
       </h1>
     </div>
   </BlackContainer>
   <div class="flex flex-row w-full p-3 lg:p-10 gap-5">
     <div class="p-2 flex flex-row rounded-lg bg-gray-900  lg:w-full">
-      <h3 class="transform rotate-180 text-2xl md:text-5xl text-white font-bold" style="writing-mode: vertical-lr">DEV
-        CERTIFICATION</h3>
+      <h3 class="transform rotate-180 text-2xl md:text-6xl text-white font-bold" style="writing-mode: vertical-lr">
+        DEV CERTIFICATION
+      </h3>
       <a href="https://dev.id/certificate/verify/OXWKR3PVDG" class="my-auto">
         <NuxtImg
             src="/images/dca-cert.png"
@@ -50,8 +51,8 @@ useHead({
             decoding="async"
         />
       </a>
-      <div class="lg:block hidden w-full mx-4">
-        <div class="flex-row flex justify-around p-5">
+      <div class="lg:block hidden w-full mx-4 font-mono">
+        <div class="flex-row flex justify-around pt-5 pb-1">
           <div class="flex items-center gap-1">
             <Icon name="mdi:web" size="1.7rem" style="color:#e41111"/>
             <span class="text-white">International Validation</span>
@@ -84,7 +85,7 @@ useHead({
   </div>
   <div class="flex flex-row w-full p-3 lg:px-10 lg:pb-10 gap-5">
     <div class="p-2 flex flex-col rounded-2xl bg-gray-900 lg:w-full">
-      <h3 class="text-3xl lg:text-5xl text-white font-bold text-center py-2">BNSP CERTIFICATION</h3>
+      <h3 class="text-3xl lg:text-6xl text-white font-bold text-center py-2">BNSP CERTIFICATION</h3>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-2 lg:p-4">
         <NuxtImg
             src="/images/bnsp.1.jpg"
