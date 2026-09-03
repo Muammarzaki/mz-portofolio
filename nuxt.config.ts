@@ -49,7 +49,6 @@ export default defineNuxtConfig({
         head: {
             htmlAttrs: {lang: 'en'},
             meta: [
-                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
                 {name: 'theme-color', content: '#030303'}
             ],
             link: [
