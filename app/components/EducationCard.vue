@@ -25,10 +25,10 @@ defineProps<{
     <div class="min-w-0">
       <div class="flex justify-between items-start flex-wrap gap-2">
         <h3 class="font-bold text-lg font-mono">{{ degree }}</h3>
-        <span class="text-black/50 text-sm font-mono whitespace-nowrap">{{ period }}</span>
+        <span class="text-black/70 text-sm font-mono whitespace-nowrap">{{ period }}</span>
       </div>
       <p class="text-black/70 text-sm font-mono mt-1">{{ institution }}</p>
-      <p v-if="detail" class="text-black/50 text-sm mt-2">{{ detail }}</p>
+      <p v-if="detail" class="text-black/70 text-sm mt-2 font-mono">{{ detail }}</p>
     </div>
   </div>
 </template>
