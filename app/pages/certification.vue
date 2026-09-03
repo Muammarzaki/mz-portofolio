@@ -1,32 +1,33 @@
 <script setup>
-const siteUrl = 'https://mz-portofolio.vercel.app'
-const pageUrl = `${siteUrl}/certification`
-const ogImage = `${siteUrl}/android-chrome-512x512.png`
 const img = useImage()
-const bodyTexture = img('/textures/small-shape-shading.png', {preset: 'texture'})
+
+const bodyTexture = img('/textures/small-shape-shading.png', {
+  preset: 'texture',
+})
 
 useSeoMeta({
   title: 'Credentials & Certifications | Muammar Zaki',
-  description: 'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
+  description:
+      'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
+
   ogTitle: 'Credentials & Certifications | Muammar Zaki',
-  ogDescription: 'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
-  ogImage,
+  ogDescription:
+      'Sertifikasi Muammar Zaki: BNSP Junior Web Developer dan Dev Certified Android (DCA), lulusan Cum Laude Teknologi Informasi UIN Ar-Raniry.',
+  ogImage: '/android-chrome-512x512.png',
   ogType: 'website',
-  ogUrl: pageUrl,
+
   twitterCard: 'summary_large_image',
   twitterTitle: 'Credentials & Certifications | Muammar Zaki',
-  twitterDescription: 'Sertifikasi profesional Muammar Zaki di web dan Android development.',
-  twitterImage: ogImage
+  twitterDescription:
+      'Sertifikasi profesional Muammar Zaki di web dan Android development.',
+  twitterImage: '/android-chrome-512x512.png',
 })
 
 useHead({
-  link: [
-    { rel: 'canonical', href: pageUrl }
-  ],
   bodyAttrs: {
     class: 'bg-repeat bg-[length:50rem_50rem]',
-    style: `background-image: url('${bodyTexture}')`
-  }
+    style: `background-image: url('${bodyTexture}')`,
+  },
 })
 </script>
 <template>
@@ -67,7 +68,8 @@ useHead({
           </div>
         </div>
         <div class="text-white pl-6 mt-3">
-          <h3 class="text-lg font-semibold font-montserrat">This certification assesses in-depth knowledge and skills related to:</h3>
+          <h3 class="text-lg font-semibold font-montserrat">This certification assesses in-depth knowledge and skills
+            related to:</h3>
           <ul class="pl-8 pb-2 mt-2 list-disc lg:space-y-1.5 text-md font-normal font-montserrat">
             <li>User Interface: Creating and displaying UI that meets requirements using ConstraintLayout, DatePicker,
               Spinner, Custom Views, and RecyclerView.
@@ -91,22 +93,22 @@ useHead({
       <h3 class="text-3xl lg:text-5xl text-white font-bold text-center py-2">BNSP CERTIFICATION</h3>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-2 lg:p-4">
         <NuxtImg
-          src="/images/bnsp.1.jpg"
-          alt="BNSP Junior Web Developer certificate page 1"
-          class="w-full border-gray-600 border-4 rounded-lg"
-          preset="certificate"
-          sizes="xs:95vw sm:90vw lg:700px"
-          loading="lazy"
-          decoding="async"
+            src="/images/bnsp.1.jpg"
+            alt="BNSP Junior Web Developer certificate page 1"
+            class="w-full border-gray-600 border-4 rounded-lg"
+            preset="certificate"
+            sizes="xs:95vw sm:90vw lg:700px"
+            loading="lazy"
+            decoding="async"
         />
         <NuxtImg
-          src="/images/bnsp.2.jpg"
-          alt="BNSP Junior Web Developer certificate page 2"
-          class="w-full border-gray-600 border-4 rounded-lg"
-          preset="certificate"
-          sizes="xs:95vw sm:90vw lg:700px"
-          loading="lazy"
-          decoding="async"
+            src="/images/bnsp.2.jpg"
+            alt="BNSP Junior Web Developer certificate page 2"
+            class="w-full border-gray-600 border-4 rounded-lg"
+            preset="certificate"
+            sizes="xs:95vw sm:90vw lg:700px"
+            loading="lazy"
+            decoding="async"
         />
       </div>
     </div>

@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
-    devtools: {enabled: false},
+    devtools: {enabled: true},
     css: ['~/assets/css/main.css'],
     vite: {
         plugins: [
@@ -13,20 +13,14 @@ export default defineNuxtConfig({
     experimental: {
         payloadExtraction: true
     },
-    modules: [
-        ['@nuxtjs/google-fonts', {
-            display: 'swap',
-            preload: true,
-            prefetch: false,
-            families: {
-                'Montserrat': [400, 500, 600, 700]
-            }
-        }],
-        '@nuxtjs/sitemap',
-        '@nuxtjs/robots',
-        '@nuxt/icon',
-        '@nuxt/image'
-    ],
+    modules: [['@nuxtjs/google-fonts', {
+        display: 'swap',
+        preload: true,
+        prefetch: false,
+        families: {
+            'Montserrat': [400, 500, 600, 700]
+        }
+    }], '@nuxtjs/sitemap', '@nuxtjs/robots', '@nuxt/icon', '@nuxt/image', '@nuxtjs/seo'],
     image: {
         quality: 70,
         format: ['avif', 'webp'],

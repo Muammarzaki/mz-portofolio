@@ -2,56 +2,54 @@
 import socialMedia from '@/assets/json/social_media.json'
 import education from '@/assets/json/education.json'
 
-const siteUrl = 'https://mz-portofolio.vercel.app'
-const pageUrl = `${siteUrl}/`
-const ogImage = `${siteUrl}/android-chrome-512x512.png`
-
 useSeoMeta({
   title: 'Muammar Zaki | Backend & Android Engineer',
-  description: 'Portofolio Muammar Zaki, Backend Software Engineer & Android Developer lulusan Cum Laude UIN Ar-Raniry. Spring Boot, NestJS, Kotlin, Jetpack Compose.',
+  description:
+      'Portofolio Muammar Zaki, Backend Software Engineer & Android Developer lulusan Cum Laude UIN Ar-Raniry. Spring Boot, NestJS, Kotlin, Jetpack Compose.',
+
   ogTitle: 'Muammar Zaki | Backend Software Engineer & Android Developer',
-  ogDescription: 'Backend-focused software engineer & Android developer. RESTful API, Spring Boot, NestJS, Kotlin, Jetpack Compose.',
-  ogImage,
+  ogDescription:
+      'Backend-focused software engineer & Android developer. RESTful API, Spring Boot, NestJS, Kotlin, Jetpack Compose.',
+
+  ogImage: '/android-chrome-512x512.png',
   ogType: 'website',
-  ogUrl: pageUrl,
 })
 
-useHead({
-  link: [
-    {rel: 'canonical', href: pageUrl}
-  ],
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Person',
-        name: 'Muammar Zaki',
-        url: pageUrl,
-        jobTitle: 'Backend Software Engineer & Android Developer',
-        alumniOf: {
-          '@type': 'CollegeOrUniversity',
-          name: 'Universitas Islam Negeri Ar-Raniry Banda Aceh'
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Aceh Besar',
-          addressRegion: 'Aceh',
-          addressCountry: 'ID'
-        },
-        sameAs: [
-          'https://github.com/muammarzaki',
-          'https://linkedin.com/in/muammar-zaki-b6387a2a0',
-          'https://www.instagram.com/marsal_mc'
-        ],
-        knowsAbout: [
-          'Spring Boot', 'NestJS', 'Kotlin', 'Jetpack Compose',
-          'RESTful API', 'Android Development', 'Backend Development'
-        ]
-      })
-    }
-  ]
-})
+useSchemaOrg([
+  definePerson({
+    name: 'Muammar Zaki',
+    url: '/',
+    jobTitle: 'Backend Software Engineer & Android Developer',
+
+    alumniOf: {
+      '@type': 'CollegeOrUniversity',
+      name: 'Universitas Islam Negeri Ar-Raniry Banda Aceh',
+    },
+
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Aceh Besar',
+      addressRegion: 'Aceh',
+      addressCountry: 'ID',
+    },
+
+    sameAs: [
+      'https://github.com/muammarzaki',
+      'https://linkedin.com/in/muammar-zaki-b6387a2a0',
+      'https://www.instagram.com/marsal_mc',
+    ],
+
+    knowsAbout: [
+      'Spring Boot',
+      'NestJS',
+      'Kotlin',
+      'Jetpack Compose',
+      'RESTful API',
+      'Android Development',
+      'Backend Development',
+    ],
+  }),
+])
 </script>
 
 <template>
