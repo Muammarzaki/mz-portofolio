@@ -10,6 +10,9 @@ export default defineNuxtConfig({
             tailwindcss()
         ]
     },
+    features: {
+        inlineStyles: true
+    },
     experimental: {
         payloadExtraction: true
     },
