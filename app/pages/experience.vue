@@ -22,8 +22,9 @@ useSeoMeta({
       </h1>
     </div>
   </BlackContainer>
-  <div class="lg:ml-8 mx-5 my-5">
-    <div class="flex flex-wrap gap-4 gap-y-6">
+  <section class="lg:ml-8 mx-5 my-5" aria-labelledby="experience-list-heading">
+    <h2 id="experience-list-heading" class="sr-only">Professional experience</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-6">
       <ExperienceCard
           v-for="exp in experience"
           :key="exp.experience_title"
@@ -32,8 +33,11 @@ useSeoMeta({
           :period="exp.duration"
           :github="exp.github"
           :website="exp.website"
-          class="w-full md:w-[calc(50%-0.5rem)] rounded-2xl p-5"
+          :class="[
+            'w-full rounded-2xl p-5',
+            exp.desktop_span === 2 ? 'md:col-span-2' : 'md:col-span-1',
+          ]"
       />
     </div>
-  </div>
+  </section>
 </template>
