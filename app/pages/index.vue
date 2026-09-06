@@ -3,7 +3,7 @@ import socialMedia from '@/assets/json/social_media.json'
 import education from '@/assets/json/education.json'
 
 useSeoMeta({
-  title: 'Muammar Zaki | Backend & Android Engineer',
+  title: 'Home | Muammar Zaki',
   description:
       'I build software that turns complex ideas into reliable, scalable, and thoughtfully engineered products. Explore the systems, applications, and problems I\'ve built along the way.',
   ogTitle: 'Muammar Zaki | Backend & Android Engineer',
