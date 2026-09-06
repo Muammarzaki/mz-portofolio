@@ -1,5 +1,12 @@
 [
   {
+    "experience_title": "Undergraduate Thesis – gRPC & Android Performance Engineering",
+    "duration": "2025 - 2026",
+    "short_description": "Developed and evaluated an Android-based early skin disease detection system as my undergraduate thesis at UIN Ar-Raniry. Implemented gRPC with client-side streaming and chunking for transmitting high-resolution medical images to a backend AI inference service, and conducted a comparative performance evaluation against REST API. The research evaluated throughput, latency, success rate, network payload, and client/server resource utilization under various simulated mobile network conditions, including 4G, 3G, packet loss, and high latency. The study found that gRPC achieved higher peak throughput and lower resource consumption than REST, while also identifying reliability trade-offs under degraded network conditions.",
+    "website": "https://repository.ar-raniry.ac.id/57177/",
+    "github": "https://github.com/Muammarzaki/dermato.ai-prototype"
+  },
+  {
     "experience_title": "Android Developer for MiniHackathon",
     "duration": "JUl 2025",
     "short_description": "Achieved 3rd place in the Mini Hackathon under the Smart City Solution sub-theme at the 2025 KI-PTKIN Scientific Competition. Contributed as an Android Developer in a project aimed at creating innovative smart city solutions to enhance community services, in line with the theme 'Tech for Ummah'. The event was organized by the Faculty of Science and Technology, UIN Raden Fatah Palembang, in collaboration with FORDEK PTKIN.",
