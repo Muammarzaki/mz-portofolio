@@ -8,7 +8,7 @@ const bodyTexture = img('/textures/small-shape-shading.png', {
 useSeoMeta({
   title: 'Credentials & Certifications | Muammar Zaki',
   description:
-      'Explore the certifications, academic achievements, and professional credentials behind Muammar Zaki’s journey as a software engineer.',
+      'Explore Muammar Zaki’s certifications, academic achievements, and professional credentials, highlighting the skills, education, and experience behind his journey as a software engineer.',
   ogTitle: 'Credentials & Certifications | Muammar Zaki',
   ogDescription:
       'Explore the certifications and achievements that support Muammar Zaki’s work as a software engineer.',

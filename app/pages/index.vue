@@ -5,7 +5,7 @@ import education from '@/assets/json/education.json'
 useSeoMeta({
   title: 'Home | Muammar Zaki',
   description:
-      'I build software that turns complex ideas into reliable, scalable, and thoughtfully engineered products. Explore the systems, applications, and problems I\'ve built along the way.',
+      'I build reliable and scalable software that turns complex ideas into thoughtfully engineered products. Explore the systems, applications, and solutions I’ve built as a software engineer.',
   ogTitle: 'Muammar Zaki | Backend & Android Engineer',
   ogDescription:
       'Software engineer building reliable backend systems and modern Android applications.',
