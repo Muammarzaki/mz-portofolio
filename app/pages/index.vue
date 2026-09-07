@@ -3,22 +3,29 @@ import socialMedia from '@/assets/json/social_media.json'
 import education from '@/assets/json/education.json'
 
 useSeoMeta({
-  title: 'Home',
+  title: 'Muammar Zaki | Backend & Android Engineer',
   description:
       'I build reliable and scalable software that turns complex ideas into thoughtfully engineered products. Explore the systems, applications, and solutions I’ve built as a software engineer.',
   ogTitle: 'Muammar Zaki | Backend & Android Engineer',
   ogDescription:
       'Software engineer building reliable backend systems and modern Android applications.',
-  ogImage: '/og-image.png',
+  ogImage: '/og-image.jpg',
   ogImageAlt: 'Muammar Zaki — Backend & Android Engineer',
   ogType: 'website'
+})
+
+useHead({
+  titleTemplate: '%s'
 })
 
 useSchemaOrg([
   definePerson({
     name: 'Muammar Zaki',
-    url: '/',
+    image: '/profile-photo.png',
+    url: 'https://muammarzaki.tech',
     jobTitle: 'Backend Software Engineer & Android Developer',
+    description:
+        'Software engineer specializing in high-performance backend architecture and native Android applications.',
 
     alumniOf: {
       '@type': 'CollegeOrUniversity',
@@ -46,7 +53,9 @@ useSchemaOrg([
       'RESTful API',
       'Android Development',
       'Backend Development',
-    ],
+      'gRPC',
+      'Microservices Architecture'
+    ]
   }),
 ])
 </script>
