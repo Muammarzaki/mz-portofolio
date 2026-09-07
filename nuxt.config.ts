@@ -50,6 +50,9 @@ export default defineNuxtConfig({
     },
     site: {
         url: 'https://muammarzaki.tech',
+        name: 'Muammar Zaki',
+        description:
+            'Software engineer specializing in reliable backend systems and modern Android applications, with a focus on clean architecture, scalable solutions, and thoughtfully engineered software.',
         defaultLocale: 'en'
     },
     app: {

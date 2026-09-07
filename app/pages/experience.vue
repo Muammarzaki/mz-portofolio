@@ -2,7 +2,7 @@
 import experience from '@/assets/json/experience.json'
 
 useSeoMeta({
-  title: 'Experience | Muammar Zaki',
+  title: 'Experience',
   description:
       'Explore Muammar Zaki’s professional experience in backend engineering and Android development, from leading software projects at UIN Ar-Raniry to building Dermato.AI with Bangkit Academy.',
   ogTitle: 'Experience | Muammar Zaki',
