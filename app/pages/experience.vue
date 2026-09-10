@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import experience from '@/assets/json/experience.json'
 
-useSeoMeta({
+usePageSeo({
   title: 'Experience',
   description:
       'Explore Muammar Zaki’s professional experience in backend engineering and Android development, from leading software projects at UIN Ar-Raniry to building Dermato.AI with Bangkit Academy.',
-  ogTitle: 'Experience | Muammar Zaki',
-  ogDescription:
-      'Explore the projects, roles, and engineering experiences that shaped Muammar Zaki as a software engineer.',
-  ogImage: '/og-image.png',
-  ogImageAlt: 'Muammar Zaki — Software Engineering Experience',
-  ogType: 'website',
+  imageAlt: 'Muammar Zaki — Software Engineering Experience',
 })
 </script>
 

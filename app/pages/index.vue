@@ -2,62 +2,17 @@
 import socialMedia from '@/assets/json/social_media.json'
 import education from '@/assets/json/education.json'
 
-useSeoMeta({
+usePageSeo({
   title: 'Muammar Zaki | Backend & Android Engineer',
   description:
       'I build reliable and scalable software that turns complex ideas into thoughtfully engineered products. Explore the systems, applications, and solutions I’ve built as a software engineer.',
-  ogTitle: 'Muammar Zaki | Backend & Android Engineer',
-  ogDescription:
-      'Software engineer building reliable backend systems and modern Android applications.',
-  ogImage: '/og-image.jpg',
-  ogImageAlt: 'Muammar Zaki — Backend & Android Engineer',
-  ogType: 'website'
+  imageAlt: 'Muammar Zaki — Backend & Android Engineer',
 })
 
 useHead({
   titleTemplate: '%s'
 })
 
-useSchemaOrg([
-  definePerson({
-    name: 'Muammar Zaki',
-    image: '/profile-photo.png',
-    url: 'https://muammarzaki.tech',
-    jobTitle: 'Backend Software Engineer & Android Developer',
-    description:
-        'Software engineer specializing in high-performance backend architecture and native Android applications.',
-
-    alumniOf: {
-      '@type': 'CollegeOrUniversity',
-      name: 'Universitas Islam Negeri Ar-Raniry Banda Aceh',
-    },
-
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Aceh Besar',
-      addressRegion: 'Aceh',
-      addressCountry: 'ID',
-    },
-
-    sameAs: [
-      'https://github.com/muammarzaki',
-      'https://linkedin.com/in/muammar-zaki-b6387a2a0',
-      'https://www.instagram.com/marsal_mc',
-    ],
-
-    knowsAbout: [
-      'Spring Boot',
-      'NestJS',
-      'Kotlin',
-      'Jetpack Compose',
-      'RESTful API',
-      'Android Development',
-      'Backend Development',
-      'gRPC',
-      'Microservices Architecture'
-    ]
-  }),
-])
 </script>
 
 <template>

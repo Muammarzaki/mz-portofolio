@@ -5,16 +5,11 @@ const bodyTexture = img('/textures/small-shape-shading.png', {
   preset: 'texture',
 })
 
-useSeoMeta({
+usePageSeo({
   title: 'Credentials & Certifications',
   description:
       'Explore Muammar Zaki’s certifications, academic achievements, and professional credentials, highlighting the skills, education, and experience behind his journey as a software engineer.',
-  ogTitle: 'Credentials & Certifications | Muammar Zaki',
-  ogDescription:
-      'Explore the certifications and achievements that support Muammar Zaki’s work as a software engineer.',
-  ogImage: '/og-image.png',
-  ogImageAlt: 'Muammar Zaki — Credentials & Certifications',
-  ogType: 'website',
+  imageAlt: 'Muammar Zaki — Credentials & Certifications',
 })
 
 useHead({
